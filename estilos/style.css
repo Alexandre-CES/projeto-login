@@ -100,7 +100,7 @@ div.campo > input{
     font-size: 1em;
 
     background-color: #8bd6d4;
-    transform: translateY(-12px); /*Tem que ser no final*/
+    transform: translateY(-12.5px); /*Tem que ser no final*/
 }
 
 div.campo > input:focus-within{
