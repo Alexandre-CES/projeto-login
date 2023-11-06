@@ -10,7 +10,16 @@
         background-image: linear-gradient(to top, var(--cor2), var(--cor1));
     }
     section#login{
+        height: 350px;
         width: 80vw;
+    }
+
+    div#formulario > h1{
+        margin-top: 10px;
+    }
+
+    div#formulario > p{
+        margin-bottom: 30px;
     }
 
     section#login > div#imagem{
@@ -18,13 +27,14 @@
         width: 30%;
         height: 100%;
 
-        background-position: left top;
+        background-position: left;
     }
 
     section#login > div#formulario{
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width:993px){
